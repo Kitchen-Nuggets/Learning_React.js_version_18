@@ -1,2 +1,2 @@
 # MyPortfolioForFun
-# Hello, I just made this portfolio for fun and learning. :))
+# Hello, I just made this portfolio for fun and learning things. :))
