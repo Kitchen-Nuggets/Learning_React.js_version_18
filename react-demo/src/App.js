@@ -3,6 +3,8 @@ import './App.css';
 import Greet from './components/Greet';
 import { Footer } from './components/Footer';
 import Message from './components/Message';
+import { Clickhandler } from './components/Clickhandler';
+import { ParentComponent } from './components/ParentComponent';
 
 function App() 
 {
@@ -16,6 +18,8 @@ function App()
       <Footer>
         <p>FOOOOT</p>
       </Footer>
+      <Clickhandler/>
+      <ParentComponent/>
     </div>
   );
 }

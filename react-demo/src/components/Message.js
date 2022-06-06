@@ -7,7 +7,7 @@ const Message = (props) =>
     return(
         <div>
             <h1>{message}</h1>
-            <button onClick={()=> setMessage('BUTTON CLICKED')}> CLICK ME</button>
+            <button onClick={()=> setMessage('BUTTON CLICKED')}> USE STATE </button>
         </div>
     );
 }
