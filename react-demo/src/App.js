@@ -6,6 +6,8 @@ import Message from './components/Message';
 import { Clickhandler } from './components/Clickhandler';
 import { ParentComponent } from './components/ParentComponent';
 
+//to run this, type "cd ./react-demo" in terminal then type "npm start"
+
 function App() 
 {
   return (
