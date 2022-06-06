@@ -13,14 +13,18 @@ function App()
   return (
     <div className="App">
       <Message></Message>
+
       <Greet name="josh" pet="chewy"/>
       <Greet name="juliana" pet="zoey">
         <button>ACTION</button>
       </Greet>
+
       <Footer>
         <p>FOOOOT</p>
       </Footer>
+
       <Clickhandler/>
+      
       <ParentComponent/>
     </div>
   );
