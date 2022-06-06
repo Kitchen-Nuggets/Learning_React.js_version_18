@@ -6,6 +6,8 @@ import Message from './components/Message';
 import { Clickhandler } from './components/Clickhandler';
 import { ParentComponent } from './components/ParentComponent';
 
+//TO CREAT REACT APP FROM SCRATCH, type "npx creat-react-app (name of the file); EXAMPLE: npx create-react-app CurriculumSystem"
+
 //to run this, type "cd ./react-demo" in terminal then type "npm start"
 
 function App() 
