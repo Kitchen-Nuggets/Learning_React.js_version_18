@@ -19,6 +19,8 @@ export const NameList = () =>
                     //and none of them are the same
                     //'name' variable was used to give each items a unique key
 
+                    //also, try putting h2 element array inside div, it doesn't work and idk why :D
+
                     return(
                     <h2 key={name}>{name}</h2>
                     )
