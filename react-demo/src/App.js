@@ -5,6 +5,7 @@ import { Footer } from './components/Footer';
 import Message from './components/Message';
 import { Clickhandler } from './components/Clickhandler';
 import { ParentComponent } from './components/ParentComponent';
+import { UserGreeting } from './components/UserGreeting';
 
 //TO GENERATE REACT APP FROM SCRATCH, type in terminal "npx create-react-app (name of the folder); EXAMPLE: npx create-react-app curriculum-system
 //NOTE: CAPITAL LETTERS AND WHITE SPACES FOR NAMING OF FOLDER ARE NOT ALLOWED"
@@ -16,7 +17,7 @@ function App()
 {
   return (
     <div className="App">
-      <Message></Message>
+      {/* <Message></Message>
 
       <Greet name="josh" pet="chewy"/>
       <Greet name="juliana" pet="zoey">
@@ -29,7 +30,8 @@ function App()
 
       <Clickhandler/>
       
-      <ParentComponent/>
+      <ParentComponent/> */}
+      <UserGreeting/>
     </div>
   );
 }
