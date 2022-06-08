@@ -1,3 +1,5 @@
+//URL ABOUT KEYS IN REACT: https://reactjs.org/docs/lists-and-keys.html#keys
+
 export const NameList = () =>
 {
     const names = ['josh', 'juliana', 'chewy', 'zoey']
