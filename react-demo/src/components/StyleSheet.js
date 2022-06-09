@@ -1,8 +1,10 @@
+import './myStyles.css'
+
 export const StyleSheet = () =>
 {
     return (
         <div>
-            <h2> StyleSheet </h2>
+            <h1 className='primary'> StyleSheet </h1>
         </div>
     )
 }

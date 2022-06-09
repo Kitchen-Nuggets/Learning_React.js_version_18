@@ -8,6 +8,7 @@ import { ParentComponent } from './components/ParentComponent';
 import { UserGreeting } from './components/UserGreeting';
 import { NameList } from './components/NameList';
 import { StyleSheet } from './components/StyleSheet';
+import { InlineStyle } from './components/InLineStyling';
 
 //TO GENERATE REACT APP FROM SCRATCH, type in terminal "npx create-react-app (name of the folder); EXAMPLE: npx create-react-app curriculum-system
 //NOTE: CAPITAL LETTERS AND WHITE SPACES FOR NAMING OF FOLDER ARE NOT ALLOWED"
@@ -33,9 +34,14 @@ function App()
       <Clickhandler/>
       
       <ParentComponent/> 
+
       <UserGreeting/>
-      <NameList/> */}
-      <StyleSheet/>
+
+      <NameList/>
+
+      <StyleSheet/> */}
+
+      <InlineStyle/>
     </div>
   );
 }
