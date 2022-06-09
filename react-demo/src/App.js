@@ -9,6 +9,8 @@ import { UserGreeting } from './components/UserGreeting';
 import { NameList } from './components/NameList';
 import { StyleSheet } from './components/StyleSheet';
 import { InlineStyle } from './components/InLineStyling';
+import './appStyles.css'
+import styles from './appStyles.module.css'
 
 //TO GENERATE REACT APP FROM SCRATCH, type in terminal "npx create-react-app (name of the folder); EXAMPLE: npx create-react-app curriculum-system
 //NOTE: CAPITAL LETTERS AND WHITE SPACES FOR NAMING OF FOLDER ARE NOT ALLOWED"
@@ -42,6 +44,13 @@ function App()
       <StyleSheet/> */}
 
       <InlineStyle/>
+
+      <h2 className='error'> ERROR </h2>
+      <h2 className={styles.success}> SUCCESS </h2> 
+      {/*NOTE: advantage of using module.css is, you cant use this in 
+      children components, unlike .css, you can use it in every 
+      component that may lead to css conflicts*/}
+
     </div>
   );
 }
