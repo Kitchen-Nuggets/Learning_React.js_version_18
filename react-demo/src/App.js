@@ -11,6 +11,8 @@ import { StyleSheet } from './components/StyleSheet';
 import { InlineStyle } from './components/InLineStyling';
 import './appStyles.css'
 import styles from './appStyles.module.css'
+import { Form } from './components/Form';
+import formStyles from './formStyle.module.css'
 
 //TO GENERATE REACT APP FROM SCRATCH, type in terminal "npx create-react-app (name of the folder); EXAMPLE: npx create-react-app curriculum-system
 //NOTE: CAPITAL LETTERS AND WHITE SPACES FOR NAMING OF FOLDER ARE NOT ALLOWED"
@@ -24,7 +26,7 @@ function App()
     <div className="App">
       {/* <Message></Message>
 
-      <Greet name="josh" pet="chewy"/>
+      <Greet name="josh" pet="chewy" />
       <Greet name="juliana" pet="zoey">
         <button>ACTION</button>
       </Greet>
@@ -33,24 +35,25 @@ function App()
         <p>FOOOOT</p>
       </Footer>
 
-      <Clickhandler/>
+      <Clickhandler />
       
-      <ParentComponent/> 
+      <ParentComponent /> 
 
-      <UserGreeting/>
+      <UserGreeting />
 
-      <NameList/>
+      <NameList />
 
-      <StyleSheet/> */}
+      <StyleSheet />
 
-      <InlineStyle/>
+      <InlineStyle />
 
       <h2 className='error'> ERROR </h2>
-      <h2 className={styles.success}> SUCCESS </h2> 
+      <h2 className={styles.success}> SUCCESS </h2>  */}
       {/*NOTE: advantage of using module.css is, you cant use this in 
       children components, unlike .css, you can use it in every 
       component that may lead to css conflicts*/}
 
+      <Form className={formStyles}/>
     </div>
   );
 }
