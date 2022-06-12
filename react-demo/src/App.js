@@ -13,6 +13,7 @@ import './appStyles.css'
 import styles from './appStyles.module.css'
 import { Form } from './components/Form';
 import formStyles from './formStyle.module.css'
+import { PostList } from './components/PostList';
 
 //TO GENERATE REACT APP FROM SCRATCH, type in terminal "npx create-react-app (name of the folder); EXAMPLE: npx create-react-app curriculum-system
 //NOTE: CAPITAL LETTERS AND WHITE SPACES FOR NAMING OF FOLDER ARE NOT ALLOWED"
@@ -53,7 +54,8 @@ function App()
       children components, unlike .css, you can use it in every 
       component that may lead to css conflicts*/}
 
-      <Form className={formStyles}/>
+      {/* <Form className={formStyles}/> */}
+      <PostList/>
     </div>
   );
 }
