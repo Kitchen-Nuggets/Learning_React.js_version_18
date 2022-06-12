@@ -2,13 +2,13 @@ import { useState, useEffect } from "react"
 
 export const PostList = () =>
 {
-    const [post, setPost] = useState('')
+    const [posts, setPosts] = useState([])
 
     useEffect(() => 
     {
         fetch('https://jsonplaceholder.typicode.com/posts')
         .then(response => response.json())
-        .then(data => setPost(data))
+        .then(data => setPosts(data))
         .catch(err => 
             {
                 console.log(err)
@@ -19,10 +19,18 @@ export const PostList = () =>
         <div>
             <ul>
                 {
-                    post.map(post => 
+                    posts.map(post => 
                         {
-                            return<li key={post.id}>{post.title}</li>
-                        })
+                            return(
+                                <div>
+                                    <li key={post.id}>
+                                        UserID: {post.userId}<br/>
+                                        TITLE: {post.title}<br/>
+                                        BODY: {post.body}<br/><br/>
+                                    </li>
+                                </div>
+                            )
+                        }) 
                 }
             </ul>
         </div>

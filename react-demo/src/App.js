@@ -1,19 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-import Greet from './components/Greet';
 import { Footer } from './components/Footer';
-import Message from './components/Message';
 import { Clickhandler } from './components/Clickhandler';
 import { ParentComponent } from './components/ParentComponent';
 import { UserGreeting } from './components/UserGreeting';
 import { NameList } from './components/NameList';
 import { StyleSheet } from './components/StyleSheet';
 import { InlineStyle } from './components/InLineStyling';
-import './appStyles.css'
-import styles from './appStyles.module.css'
 import { Form } from './components/Form';
-import formStyles from './formStyle.module.css'
 import { PostList } from './components/PostList';
+
+import formStyles from './formStyle.module.css'
+import styles from './appStyles.module.css'
+import Message from './components/Message';
+import logo from './logo.svg';
+import Greet from './components/Greet';
+
+import './App.css';
+import './appStyles.css'
 
 //TO GENERATE REACT APP FROM SCRATCH, type in terminal "npx create-react-app (name of the folder); EXAMPLE: npx create-react-app curriculum-system
 //NOTE: CAPITAL LETTERS AND WHITE SPACES FOR NAMING OF FOLDER ARE NOT ALLOWED"
